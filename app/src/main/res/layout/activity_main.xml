@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#afbfff"
+    tools:context="cn.studyjams.s1.sj03.sj_03_hulele.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/topPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="280dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/fengmian" />
+
+        <ImageView
+            android:id="@+id/leftBottom"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_below="@id/topPhoto"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/zuoxiatu" />
+
+
+        <LinearLayout
+            android:id="@+id/headlines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/topPhoto"
+            android:layout_margin="20dp"
+            android:layout_toRightOf="@id/leftBottom"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/writer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="作者简介" />
+
+            <Button
+                android:id="@+id/work"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="著作短述" />
+
+
+            <Button
+                android:id="@+id/quotation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="经典名句" />
+
+            <Button
+                android:id="@+id/evaluate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="名人评价" />
+
+            <Button
+                android:id="@+id/enlightenment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="巨著启示" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/shading"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/headlines"
+            android:src="@drawable/dibianwen" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

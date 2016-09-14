@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b2dfdb">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/leftPicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/touxiang"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/touxiang" />
+
+            <ImageView
+                android:id="@+id/mingzi"
+                android:layout_width="180dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/mingzi" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_margin="40dp"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/leftPicture"
+            android:layout_marginTop="5dp"
+            android:text="作者简介"
+            android:textColor="#1a237e"
+            android:textSize="40dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/leftPicture"
+            android:layout_marginTop="20dp"
+            android:text="        老子,姓李名耳,字聃,华夏族,陈国苦县历乡曲仁里(今河南省鹿邑县太清宫镇)人,约生活于前571年至471年之间。是我国古代伟大的哲学家和思想家、道家学派创始人,被唐朝帝王追认为李姓始祖。老子乃世界文化名人，世界百位历史名人之一，存世有《道德经》，其作品的精华是朴素的辩证法，主张无为而治，其学说对中国哲学发展具有深刻影响。
+"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
